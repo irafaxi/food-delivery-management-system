@@ -1,52 +1,24 @@
-# 🍔 Food Delivery Management System
+# Food Delivery Management System
 
-A Java-based application that simulates a food delivery platform using Object-Oriented Programming (OOP) principles. The system allows users to manage customers, restaurants, menu items, orders, and delivery services through a console-based interface.
+This project is a Food Delivery Management System developed in Java using Object-Oriented Programming (OOP). It was created as part of a university programming course to practice designing classes, inheritance, interfaces, and file handling.
 
----
-
-## 📌 Project Overview
-
-This project was developed as part of a university programming course to demonstrate the use of Object-Oriented Programming concepts such as:
-
-- Classes and Objects
-- Inheritance
-- Polymorphism
-- Abstraction
-- Interfaces
-- Encapsulation
-
-The application simulates the workflow of a food delivery service from customer registration to order delivery.
+The system simulates how a food delivery service works by allowing users to manage customers, restaurants, orders, and delivery methods.
 
 ---
 
-## ✨ Features
+## Features
 
-### 👤 Customer Management
-- Add Regular Customers
-- Add Golden Members
-- Store customer information
-
-### 🍽 Restaurant Management
-- Register restaurants
-- Add menu items to restaurants
-
-### 📦 Order Management
-- Create food orders
-- Calculate delivery cost
-- Apply discounts for Golden Members
-
-### 🚚 Delivery Management
-- Assign Drivers
-- Assign Drones
-- Track delivered orders
-
-### 📊 Reports
-- Display orders assigned to each deliverer
-- Calculate total delivery earnings
+- Add regular and golden customers
+- Add restaurants and menu items
+- Create customer orders
+- Assign drivers or drones to deliver orders
+- Calculate delivery costs and discounts
+- Read input from a file
+- Generate output results
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Java
 - Object-Oriented Programming (OOP)
@@ -54,72 +26,50 @@ The application simulates the workflow of a food delivery service from customer 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
-│
-├── Customer.java
-├── Driver.java
-├── Drone.java
-├── Restaurant.java
-├── Order.java
-├── Person.java
-├── Deliverable.java
-├── DeliverySystem.java
-└── ...
+nbproject/
+build.xml
+manifest.mf
+input.txt
+output.txt
 ```
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository.
 
 ```bash
-git clone https://github.com/your-username/food-delivery-management-system.git
+git clone https://github.com/irafaxi/food-delivery-management-system.git
 ```
 
-2. Open the project using **NetBeans IDE**.
+2. Open the project in NetBeans.
 
-3. Build the project.
+3. Build and run the project.
 
-4. Run:
-
-```
-FoodDeliverySystm.java
-```
+4. Make sure the `input.txt` file is available before running the program.
 
 ---
 
-## 📄 Input & Output
+## What I Learned
 
-The project uses:
+Through this project, I improved my understanding of:
 
-- `input.txt` for reading commands.
-- `output.txt` for displaying generated results.
-
----
-
-## 📚 Concepts Demonstrated
-
-- Object-Oriented Design
-- Inheritance
-- Interfaces
-- Collections
-- File Handling
-- Exception Handling
+- Object-Oriented Programming concepts
+- Inheritance and Interfaces
+- Working with multiple classes
+- Reading and writing files
+- Organizing a Java project
+- Problem-solving and debugging
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Rafa**
+Rafa
 
 Computer Science Student
-
----
-
-## 📜 License
-
-This project was created for educational purposes.

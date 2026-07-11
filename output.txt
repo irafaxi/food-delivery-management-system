@@ -1,0 +1,214 @@
+Regular Customer Ali added successfully.
+
+Regular Customer Omar added successfully.
+
+Golden Customer Hassan added successfully.
+
+Golden Customer Faisal added successfully.
+
+Golden Customer Abdullah added successfully.
+
+Driver Khalid added successfully.
+
+Driver Saad added successfully.
+
+Drone 201 added successfully.
+
+Drone 202 added successfully.
+
+Restaurant Al-Baik added successfully.
+
+Restaurant Al-Tazij added successfully.
+
+Restaurant Al-Najdiyah added successfully.
+
+Menu item 'Fried Chicken' added to restaurant Al-Baik
+
+Menu item 'Chicken Sandwich' added to restaurant Al-Baik
+
+Menu item 'Chicken Nuggets' added to restaurant Al-Baik
+
+Menu item 'Mixed Grill' added to restaurant Al-Tazij
+
+Menu item 'Rice with Chicken' added to restaurant Al-Tazij
+
+Menu item 'Lamb Kebab' added to restaurant Al-Tazij
+
+Menu item 'Burger' added to restaurant Al-Najdiyah
+
+Menu item 'Fries' added to restaurant Al-Najdiyah
+
+Menu item 'Soft Drink' added to restaurant Al-Najdiyah
+
+Order 1 created successfully for Ali
+
+Driver Khalid assigned to Order 1
+
+Order 2 created successfully for Hassan
+
+Driver Saad assigned to Order 2
+
+Order 3 created successfully for Faisal
+
+Drone 201 assigned to Order 3
+
+Order 4 created successfully for Omar
+
+Drone 201 assigned to Order 4
+
+Order 5 created successfully for Ali
+
+Driver Khalid assigned to Order 5
+
+Order 6 created successfully for Ali
+
+Drone 202 assigned to Order 6
+
+Order 7 created successfully for Omar
+
+Driver Khalid assigned to Order 7
+
+Order 8 created successfully for Omar
+
+Driver Khalid assigned to Order 8
+
+Order 9 created successfully for Hassan
+
+Driver Saad assigned to Order 9
+
+Order 10 created successfully for Hassan
+
+Drone 202 assigned to Order 10
+
+Order 11 created successfully for Faisal
+
+Driver Khalid assigned to Order 11
+
+Order 12 created successfully for Faisal
+
+Driver Saad assigned to Order 12
+
+Order 13 created successfully for Abdullah
+
+Drone 201 assigned to Order 13
+
+Order 14 created successfully for Abdullah
+
+Drone 201 assigned to Order 14
+
+Order 15 created successfully for Abdullah
+
+Drone 202 assigned to Order 15
+
+-----Orders delivered by Driver Khalid (ID: 101)--------
+===============================================================
+Order ID   Customer        Restaurant           Delivery Cost  
+1          Ali             Al-Baik              10.00
+-----------------------------Items---------------------------
+1-Fried Chicken
+2-Chicken Sandwich
+==============================End==============================
+===============================================================
+Order ID   Customer        Restaurant           Delivery Cost  
+5          Ali             Al-Tazij             11.00
+-----------------------------Items---------------------------
+1-Mixed Grill
+2-Lamb Kebab
+==============================End==============================
+===============================================================
+Order ID   Customer        Restaurant           Delivery Cost  
+7          Omar            Al-Najdiyah          13.00
+-----------------------------Items---------------------------
+1-Burger
+2-Fries
+3-Soft Drink
+==============================End==============================
+===============================================================
+Order ID   Customer        Restaurant           Delivery Cost  
+8          Omar            Al-Tazij             10.00
+-----------------------------Items---------------------------
+1-Rice with Chicken
+2-Lamb Kebab
+==============================End==============================
+===============================================================
+Order ID   Customer        Restaurant           Delivery Cost  
+11         Faisal          Al-Baik              8.92
+-----------------------------Items---------------------------
+1-Chicken Sandwich
+2-Chicken Nuggets
+==============================End==============================
+
+
+The Driver with ID 101 has earned $52.93 for deliveries.
+
+The Drone with ID 201 has earned $29.18 for deliveries.
+
+------------- Orders for Customer: Hassan (ID: 3)------------
+-------------------------------------------------------------
+Order ID      : 2
+Customer Type : Golden
+Restaurant    : Al-Tazij
+Discount Rate : 0.2
+Delivery Cost : 9.60
+Items:
+   1. Mixed Grill
+   2. Rice with Chicken
+Delivered by  : Driver Saad (ID: 102)
+-------------------------------------------------------------
+-------------------------------------------------------------
+Order ID      : 9
+Customer Type : Golden
+Restaurant    : Al-Baik
+Discount Rate : 0.2
+Delivery Cost : 6.80
+Items:
+   1. Fried Chicken
+   2. Chicken Nuggets
+Delivered by  : Driver Saad (ID: 102)
+-------------------------------------------------------------
+-------------------------------------------------------------
+Order ID      : 10
+Customer Type : Golden
+Restaurant    : Al-Najdiyah
+Discount Rate : 0.2
+Delivery Cost : 7.60
+Items:
+   1. Burger
+   2. Soft Drink
+Delivered by  : Drone (ID: 202)
+-------------------------------------------------------------
+
+------------- Orders for Customer: Ali (ID: 1)------------
+-------------------------------------------------------------
+Order ID      : 1
+Customer Type : Regular
+Restaurant    : Al-Baik
+Discount Rate : 0.0
+Delivery Cost : 10.00
+Items:
+   1. Fried Chicken
+   2. Chicken Sandwich
+Delivered by  : Driver Khalid (ID: 101)
+-------------------------------------------------------------
+-------------------------------------------------------------
+Order ID      : 5
+Customer Type : Regular
+Restaurant    : Al-Tazij
+Discount Rate : 0.0
+Delivery Cost : 11.00
+Items:
+   1. Mixed Grill
+   2. Lamb Kebab
+Delivered by  : Driver Khalid (ID: 101)
+-------------------------------------------------------------
+-------------------------------------------------------------
+Order ID      : 6
+Customer Type : Regular
+Restaurant    : Al-Najdiyah
+Discount Rate : 0.0
+Delivery Cost : 9.00
+Items:
+   1. Burger
+   2. Soft Drink
+Delivered by  : Drone (ID: 202)
+-------------------------------------------------------------

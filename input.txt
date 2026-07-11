@@ -1,0 +1,99 @@
+addRegularCustomer,1,Ali,0551111111
+
+addRegularCustomer,2,Omar,0552222222
+
+addGoldenCustomer,3,Hassan,0553333333,100.0,0.20
+
+addGoldenCustomer,4,Faisal,0554444444,150.0,0.15
+
+addGoldenCustomer,5,Abdullah,0555555555,120.0,0.25
+
+addDriver,6,Khalid,0556666666,101,Car
+
+addDriver,7,Saad,0557777777,102,Motorcycle
+
+addDrone,201,5.0,100
+
+addDrone,202,3.3,90
+
+addRestaurant,1,Al-Baik,Jeddah
+
+addRestaurant,2,Al-Tazij,Jeddah
+
+addRestaurant,3,Al-Najdiyah,Jeddah
+
+addMenuItem,1,Fried Chicken#Chicken Sandwich#Chicken Nuggets
+
+addMenuItem,2,Mixed Grill#Rice with Chicken#Lamb Kebab
+
+addMenuItem,3,Burger#Fries#Soft Drink
+
+createOrder,1,1,Fried Chicken#Chicken Sandwich,10.0
+
+assignDeliverer,1,101
+
+createOrder,3,2,Mixed Grill#Rice with Chicken,12.0
+
+assignDeliverer,2,102
+
+createOrder,4,3,Burger#Fries,8.0
+
+assignDeliverer,3,201
+
+createOrder,2,1,Chicken Nuggets,7.0
+
+assignDeliverer,4,201
+
+createOrder,1,2,Mixed Grill#Lamb Kebab,11.0
+
+assignDeliverer,5,101
+
+createOrder,1,3,Burger#Soft Drink,9.0
+
+assignDeliverer,6,202
+
+createOrder,2,3,Burger#Fries#Soft Drink,13.0
+
+assignDeliverer,7,101
+
+createOrder,2,2,Rice with Chicken#Lamb Kebab,10.0
+
+assignDeliverer,8,101
+
+createOrder,3,1,Fried Chicken#Chicken Nuggets,8.5
+
+assignDeliverer,9,102
+
+createOrder,3,3,Burger#Soft Drink,9.5
+
+assignDeliverer,10,202
+
+createOrder,4,1,Chicken Sandwich#Chicken Nuggets,10.5
+
+assignDeliverer,11,101
+
+createOrder,4,2,Mixed Grill#Lamb Kebab,11.5
+
+assignDeliverer,12,102
+
+createOrder,5,2,Rice with Chicken#Mixed Grill,12.5
+
+assignDeliverer,13,201
+
+createOrder,5,3,Fries#Soft Drink,8.0
+
+assignDeliverer,14,201
+
+createOrder,5,1,Fried Chicken#Chicken Sandwich#Chicken Nuggets,14.0
+
+assignDeliverer,15,202
+
+printOrdersByDeliverer,101
+
+getTotalCostByDelivererId,101
+
+getTotalCostByDelivererId,201
+
+printOrdersByCustomer,3
+
+printOrdersByCustomer,1
